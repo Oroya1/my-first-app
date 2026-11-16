@@ -3,7 +3,7 @@ import streamlit as st
 st.title("🛒แอปพลิเคชั่นส่วนลดและ VAT 7%")
 
 price = st.number_input("กรอกราคาสินค้า (บาท):", min_value=0.0 , value=0.0)
-price = st.number_input("กรอกส่วนลด (เปอร์เซ็นต์):", min_value=0.0 , value=0.0)
+percent = st.number_input("กรอกส่วนลด (เปอร์เซ็นต์):", min_value=0.0 , value=0.0)
 
 discount = price * (percent/100)
 vat = price * 0.07
