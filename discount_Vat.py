@@ -11,8 +11,8 @@ net_price = discount + vat
 
 st.header(f"• ภาษีมูลค่าเพิ่ม (VAT 7%): **{vat:.2f}** บาท")
 st.header(f"• ราคาสุทธิ: {net_price:.2f} บาท")
-st.header(f"• ราคาสุทธิ: {discount:.2f} บาท")
-st.header(f"• ราคาสุทธิ: {percent:.2f} เปอร์เซ็นต์")
-st.header(f"• ราคาสุทธิ: {price:.2f} บาท")
+st.header(f"• ส่วนลด: {discount:.2f} บาท")
+st.header(f"• ลดกี่เปอร์เซ็นต์: {percent:.2f} เปอร์เซ็นต์")
+st.header(f"• ราคา: {price:.2f} บาท")
 st.divider()
 st.write("นายธนภัทร บารมี เลขที่ 25  ม.4/5")
